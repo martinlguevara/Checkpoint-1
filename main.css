@@ -1,0 +1,97 @@
+.gridOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    justify-items: center;
+}
+
+.whatever {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    background-color: red;
+}
+
+.Text {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    background-color: blue;
+}
+
+.I_Want {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(800px, 2fr));
+    background-color: yellow;
+}
+
+.gridThree {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    width: 500px;
+    height: 300px;
+}
+
+.image {
+    width: 500px;
+    height: 225px;
+    object-fit: cover;
+}
+
+.gridFour {
+    padding: 300px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: green;
+    font-size: 20px;
+}
+
+.Second_paragraph {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    background-color: green;
+}
+
+.gridFive {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.My_Even_More_Awesome_Text {
+    padding: 10px;
+}
+
+.Two_images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.gridSix {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    background-color: lightgray;
+}
+
+.Google_Font {
+    font-family: "Lato", sans-serif;
+}
+
+
